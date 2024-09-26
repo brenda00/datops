@@ -1,0 +1,31 @@
+# Ignore o ambiente virtual
+venv/
+Venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Ignore arquivos de configuração do Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos do Docker
+*.pid
+.dockerignore
+
+# Ignore arquivos de configuração específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos e pastas ocultas do sistema operacional
+.idea/
+.vscode/
+*.swp
+*~
